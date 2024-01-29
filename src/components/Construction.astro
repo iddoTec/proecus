@@ -1,0 +1,12 @@
+---
+import { Image } from 'astro:assets';
+import construccion from "../../public/img/construcción.png";
+import facebook from "../../public/img/facebook.png";
+---
+
+<section class="w-full flex flex-col justify-center items-center">
+    <Image class="object-cover" src={construccion} alt="imagen de construcción"/>
+    <a class="w-10 mt-4 lg:w-16" href="">
+        <Image class="object-cover" src={facebook} alt="icono de Facebook"/>
+    </a>
+</section>
