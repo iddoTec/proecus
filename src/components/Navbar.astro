@@ -1,16 +1,17 @@
 ---
-
+import { Image } from "astro:assets"
+import logo from "../../public/img/logo.png"
 ---
 
 <header
-    class="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800"
+    class="sticky top-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800"
 >
     <nav
         class="max-w-screen-2xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"
     >
         <div class="flex items-center justify-between">
-            <a class="flex-none text-xl font-semibold dark:text-white" href="#">Logo</a>
+            <a class="flex-none text-xl font-semibold dark:text-white" href="#hero"><Image class="max-w-10 rounded-md" src={logo} alt="logo"/></a>
             <div class="sm:hidden">
                 <button
                     type="button"
@@ -62,7 +63,7 @@
             >
                 <a
                     class="font-medium text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
+                    href="#about"
                     aria-current="page">Nosotros</a
                 >
                 <a
