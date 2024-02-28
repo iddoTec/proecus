@@ -1,25 +1,11 @@
 ---
-import Construction from "../components/Construction.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<!-- desarrollado por RobertCoder (www.robertcoder.com) --><!-- IddO Tec 2024 (www.iddotec.com) -->
-<html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="PROECUS" />
-        <meta property="og:url" content="www.proecus.org" />
-        <meta
-            property="og:image"
-            content="http://drive.google.com/uc?export=view&id=1KjAPtI8GLz4AtZUlnC77oUUiDZjgNmpQ"
-        />
-        <meta property="og:description" content="Servicios ambientales especializados" />
-        <title>PROECUS</title>
-    </head>
-    <body class="max-w-screen-2xl h-screen mx-auto flex justify-center items-center">
-        <Construction />
-    </body>
-</html>
+<BaseLayout>
+    <section class="max-w-screen-2xl mx-auto">
+        <div class="w-full bg-cover py-64 lg:py-80 lg:rounded-3xl lg:mt-4 lg:bg-center" style="background-image: url(/img/hero.jpg);">
+            <p class="text-3xl font-medium text-center -mt-48 text-gray-800 lg:text-4xl lg:-mt-72">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+</BaseLayout>

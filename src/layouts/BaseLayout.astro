@@ -1,0 +1,18 @@
+---
+import NavBar from "../components/Navbar.astro";
+---
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Astro</title>
+        <script src="../../node_modules/preline/dist/preline.js"></script>
+    </head>
+    <body>
+        <NavBar />
+        <slot />
+    </body>
+</html>
