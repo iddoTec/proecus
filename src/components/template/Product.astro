@@ -1,0 +1,31 @@
+---
+const props = Astro.props;
+import { Image } from "astro:assets";
+import whatsapp from "../../../public/img/whatsapp.png"
+import { object } from "astro/zod";
+---
+
+<article
+    class="rounded-xl flex flex-col justify-around border-2 border-gray-50 bg-white dark:bg-gray-700 dark:text-white dark:border-gray-600 dark:shadow-gray-900 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+>
+    <div class="relative flex items-end overflow-hidden rounded-xl">
+        <Image class="object-cover" src={props.img} alt={props.alt} />
+    </div>
+    <div class="mt-1 p-2">
+        <h2 class="text-center font-medium">{props.title}</h2>
+        <p class="mt-1 text-sm text-center">{props.text}</p>
+        <div class="mt-3 flex items-end justify-between">
+            <!-- <p class="text-lg font-bold text-blue-500">$850</p> -->
+            <div
+                class="w-full flex justify-center space-x-1.5 rounded-lg bg-blue-500 px-4 py-2 text-white duration-100 hover:bg-blue-600"
+            >
+                <a href="https://wa.me/523521050931?text=Me%20interesa%20conocer%20el%20catalog%C3%B3%20de%20productos%20" target="_blank" rel="noopener noreferrer" class="text-sm flex gap-2">
+                    <Image class="max-w-4 max-h-5 h-auto" src={whatsapp} alt="whatsapp"/>
+                    <p>
+                        Solicitar cotización
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import Product from "../../components/template/Product.astro";
+import linea from "../../../public/img/linea.svg";
+import producto1 from "../../../public/img/productos/producto1.jpg";
+import producto2 from "../../../public/img/productos/producto2.jpg";
+import producto3 from "../../../public/img/productos/producto3.jpg";
+---
+
+<BaseLayout>
+    <section class="pt-10 dark:text-white">
+        <h1 class="text-3xl font-medium text-center">Categoría 4</h1>
+        <Image class="mb-4 mx-auto" src={linea} alt="linea" />
+        <div
+            class="mx-auto grid max-w-6xl grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        >
+        <Product title="Producto 1" img={producto1} alt="Producto1" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
+        <Product title="Producto 2" img={producto2} alt="Producto2" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
+        <Product title="Producto 3" img={producto3} alt="Producto3" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
+        </div>
+    </section>
+</BaseLayout>
