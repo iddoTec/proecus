@@ -1,5 +1,6 @@
 ---
 import NavBar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro"
 ---
 <!-- desarrollado por RobertCoder (www.robertcoder.com) -->
 <!-- IddO Tec 2024 (www.iddotec.com) -->
@@ -20,8 +21,9 @@ import NavBar from "../components/Navbar.astro";
         <title>PROECUS</title>
         <script src="../../node_modules/preline/dist/preline.js"></script>
     </head>
-    <body class=" dark:bg-gray-800">
+    <body class=" dark:bg-gray-800 max-w-screen-2xl mx-auto">
         <NavBar />
         <slot />
+        <Footer/>
     </body>
 </html>
