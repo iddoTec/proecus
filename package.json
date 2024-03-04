@@ -13,6 +13,10 @@
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.4.1",
     "preline": "^2.0.3",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animated": "^1.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss-intersect": "^1.0.5"
   }
 }

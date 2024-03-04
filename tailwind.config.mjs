@@ -6,6 +6,8 @@ export default {
 	},
 	plugins: [
 		require('preline/plugin'),
+		require('tailwindcss-intersect'),
+		require('tailwindcss-animated')
 	],
 	darkMode: 'class',
 }
