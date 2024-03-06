@@ -3,6 +3,8 @@ import { Image } from "astro:assets";
 import linea from "../../public/img/linea.svg";
 import face from "../../public/img/facebook.png"
 import whatsapp from "../../public/img/whatsapp.png"
+import mapa from "../../public/img/mapa.png"
+import maps from "../../public/img/maps.png"
 ---
 
 <section id="contact" class="scroll-mt-16">
@@ -97,22 +99,17 @@ import whatsapp from "../../public/img/whatsapp.png"
                         <a href="https://wa.me/523521050931?text=Me%20interesa%20conocer%20el%20catalog%C3%B3%20de%20productos%20" target="_blank" rel="noopener noreferrer">
                             <Image class="max-w-12" src={whatsapp} alt="whatsapp"/>
                         </a>
+                        <a href="https://maps.app.goo.gl/HGzSavUn9bSTY4136" target="_blank" rel="noopener noreferrer">
+                            <Image class="max-w-12" src={maps} alt="maps"/>
+                        </a>
                     </div>
                 </div>
                 <section
                     class="flex justify-center overflow-hidden bg-white lg:rounded-3xl"
                 >
-                    <div class="relative w-full h-72 lg:h-96">
-                        <iframe
-                            class="absolute top-0 left-0 w-full h-full"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.2754119636545!2d-102.03893213033547!3d20.33741905632484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c1fb0c2639f61%3A0x1b042a1d94b24b27!2sTerraza%20Finca%20Bonita!5e0!3m2!1ses-419!2smx!4v1705520100946!5m2!1ses-419!2smx"
-                            style="border:0;"
-                            allowfullscreen=""
-                            aria-hidden="false"
-                            tabindex="0"
-                        >
-                        </iframe>
-                    </div>
+                    <a href="https://maps.app.goo.gl/HGzSavUn9bSTY4136" target="_blank" rel="noopener noreferrer">
+                        <Image class="h-full object-cover" src={mapa} alt="mapa"/>
+                    </a>
                 </section>
             </div>
         </div>
