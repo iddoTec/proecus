@@ -1,47 +1,71 @@
-# Astro Starter Kit: Minimal
+# PROECUS Website
 
-```sh
-npm create astro@latest -- --template minimal
-```
+![Proecus Logo](./public/img/logoFull.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Descripción
 
-## 🚀 Project Structure
+Este repositorio contiene el código fuente y la documentación para el sitio web de Proecus, una empresa líder en el sector agropecuario. El sitio web está desarrollado con Astro, JS, HTML, Tailwind, Preline y la API al chat live de crisp.chat
 
-Inside of your Astro project, you'll see the following folders and files:
+El sitio web de Proecus se puede acceder a través del siguiente enlace: [www.proecus.org](https://www.proecus.org)
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+---
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Características
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- Diseño first mobile 
+- Diseño responsivo 
+- Desplegado en Vercel
 
-Any static assets, like images, can be placed in the `public/` directory.
+---
 
-## 🧞 Commands
+## Requisitos del Sistema
 
-All commands are run from the root of the project, from a terminal:
+- Navegador Web
 
-| Command                   | Action                                           |
+---
+
+## Instalación
+
+Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
+
+| Comando                   | Acción                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Instala dependencias del proyecto                |
+| `npm run dev`             | Inicia el servidor local en: `localhost:4321`    |
+| `npm run build`           | Construye el sitio en producción en: `./dist/`   |
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Contribución
+
+Agradecemos las contribuciones al proyecto. Si desea contribuir, siga estos pasos:
+
+1. Forkee el repositorio.
+2. Cree una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Haga commit de sus cambios (`git commit -am 'Agrega nueva característica'`).
+4. Haga push a la rama (`git push origin feature/nueva-caracteristica`).
+5. Abra un pull request.
+
+---
+
+## Autor
+
+- **Roberto Vazquez (RobertCoder)** - [Perfil de GitHub](https://github.com/xBlackEaglex)
+
+- **Portfolio y contacto** [Portfolio Web](https://www.robertcoder.com)
+
+---
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulte el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+---
+
+## Contacto
+
+Para más información sobre el proyecto, contáctenos en:
+
+- Sitio web: [www.iddotec.com](https://www.iddotec.com)

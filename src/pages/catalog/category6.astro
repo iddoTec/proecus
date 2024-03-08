@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import Product from "../../components/template/Product.astro";
+import linea from "../../../public/img/linea.svg";
+import producto1 from "../../../public/img/productos/category6/producto1.jpg";
+---
+
+<BaseLayout>
+    <section class="pt-10 dark:text-white">
+        <h1 class="text-3xl font-medium text-center mt-16">Silos</h1>
+        <Image class="mb-4 mx-auto" src={linea} alt="linea" />
+        <div
+            class="mx-auto grid max-w-6xl grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        >
+        <Product title="Silos" img={producto1} alt="Producto1" text="Almacene granos y forraje de manera segura y eficiente con nuestros silos de calidad superior. Diseñados para proteger y preservar sus cosechas" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Silos"/>
+        </div>
+    </section>
+</BaseLayout>
