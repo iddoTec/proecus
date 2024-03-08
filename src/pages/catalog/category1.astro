@@ -3,21 +3,23 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import Product from "../../components/template/Product.astro";
 import linea from "../../../public/img/linea.svg";
-import producto1 from "../../../public/img/productos/producto1.jpg";
-import producto2 from "../../../public/img/productos/producto2.jpg";
-import producto3 from "../../../public/img/productos/producto3.jpg";
+import producto1 from "../../../public/img//productos/category1/producto1.jpg";
+import producto2 from "../../../public/img//productos/category1/producto2.jpg";
+import producto3 from "../../../public/img//productos/category1/producto3.jpg";
+import producto4 from "../../../public/img//productos/category1/pruducto4.jpg";
 ---
 
 <BaseLayout>
     <section class="pt-10 dark:text-white">
-        <h1 class="text-3xl font-medium text-center">Categoría 1</h1>
+        <h1 class="text-3xl font-medium text-center mt-16">Manejo y aprovechamiento de recursos agropecuarios</h1>
         <Image class="mb-4 mx-auto" src={linea} alt="linea" />
         <div
             class="mx-auto grid max-w-6xl grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         >
-        <Product title="Producto 1" img={producto1} alt="Producto1" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
-        <Product title="Producto 2" img={producto2} alt="Producto2" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
-        <Product title="Producto 3" img={producto3} alt="Producto3" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
+        <Product title="Compostaje" img={producto1} alt="Producto1" text="Convierta desechos orgánicos en nutrientes ricos para el suelo con nuestro sistema de compostaje. Aproveche al máximo los recursos naturales" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20compostaje"/>
+        <Product title="Biodigestores" img={producto2} alt="Producto2" text="Transforme residuos orgánicos en energía renovable con nuestros biodigestores de vanguardia. Maximice la eficiencia y minimice los residuos con esta solución sostenible y rentable" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Biodigestores"/>
+        <Product title="Diseño y construcción de biodigestores a medida" img={producto3} alt="Producto3" text="Diseñados según sus necesidades específicas, nuestros biodigestores a medida ofrecen una solución personalizada para la gestión eficiente de residuos orgánicos" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Dise%C3%B1o%20y%20construcci%C3%B3n%20de%20biodigestores%20a%20medida"/>
+        <Product title="Reactivación y mantenimiento a biodigestores" img={producto4} alt="Producto4" text="Maximice el rendimiento de sus biodigestores con nuestro servicio de reactivación y mantenimiento. Nuestro equipo experto asegura que su sistema funcione de manera óptima" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Reactivaci%C3%B3n%20y%20mantenimiento%20a%20biodigestores"/>
         </div>
     </section>
 </BaseLayout>

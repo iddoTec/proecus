@@ -3,21 +3,27 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import Product from "../../components/template/Product.astro";
 import linea from "../../../public/img/linea.svg";
-import producto1 from "../../../public/img/productos/producto1.jpg";
-import producto2 from "../../../public/img/productos/producto2.jpg";
-import producto3 from "../../../public/img/productos/producto3.jpg";
+import producto1 from "../../../public/img/productos/category4/producto1.jpg";
+import producto2 from "../../../public/img/productos/category4/producto2.jpg";
+import producto3 from "../../../public/img/productos/category4/producto3.jpg";
+import producto4 from "../../../public/img/productos/category4/producto4.jpg";
+import producto5 from "../../../public/img/productos/category4/producto5.jpg";
+import producto6 from "../../../public/img/productos/category4/producto6.jpg";
 ---
 
 <BaseLayout>
     <section class="pt-10 dark:text-white">
-        <h1 class="text-3xl font-medium text-center">Categoría 4</h1>
+        <h1 class="text-3xl font-medium text-center mt-16">Equipo para granja porcina</h1>
         <Image class="mb-4 mx-auto" src={linea} alt="linea" />
         <div
             class="mx-auto grid max-w-6xl grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         >
-        <Product title="Producto 1" img={producto1} alt="Producto1" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
-        <Product title="Producto 2" img={producto2} alt="Producto2" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
-        <Product title="Producto 3" img={producto3} alt="Producto3" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
+        <Product title="Camas para maternidad" img={producto1} alt="Producto1" text="Jaulas de tubo para cerdas (Araña) equipada con tubo salva lechón, tubo inferior ajustable para mejor exposición de los pezones, soleras barrenadas para ajustar altura, puerta delantera y trasera, tarjetero frontal y porta difusor" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Camas%20para%20maternidad"/>
+        <Product title="Corral para destete" img={producto2} alt="Producto2" text="Facilite la transición de los lechones destetados con nuestros corrales especializados. Diseñados para proporcionar un ambiente controlado y seguro" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Corral%20para%20destete"/>
+        <Product title="Comederos" img={producto3} alt="Producto3" text="Optimice la alimentación de sus cerdos con nuestros comederos de alta calidad. Diseñados para proporcionar un acceso fácil y un consumo eficiente de alimentos" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Comederos"/>
+        <Product title="Bebederos y sistema de agua" img={producto4} alt="Producto4" text="Mantenga a sus cerdos correctamente hidratados con nuestros sistemas de bebederos de última generación. Diseñados para proporcionar un acceso fácil y constante al agua " msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Bebederos%20y%20sistema%20de%20agua"/>
+        <Product title="Lámparas" img={producto5} alt="Producto5" text="Proporcione iluminación adecuada y confort térmico en sus instalaciones con nuestras lámparas especializadas. Diseñadas para simular condiciones naturales y promover el bienestar animal" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20L%C3%A1mparas"/>
+        <Product title="Separador de sólidos" img={producto6} alt="Producto6" text="Simplifique la gestión de residuos y mejore la higiene en su granja con nuestro separador de sólidos. Diseñado para separar eficientemente los residuos sólidos de los líquidos" msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Separador%20de%20s%C3%B3lidos"/>
         </div>
     </section>
 </BaseLayout>

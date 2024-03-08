@@ -1,9 +1,8 @@
 ---
-
+import { Image } from "astro:assets";
+import hero from "../../public/img/hero.jpg"
 ---
 
-<section id="hero" class="scroll-mt-20">
-    <div class="mt-16 w-full bg-cover py-64 sm:mt-0 lg:py-80 lg:rounded-3xl lg:bg-center" style="background-image: url(/img/hero.jpg);">
-        <p class="text-3xl font-medium text-center -mt-48 text-gray-800 lg:text-4xl lg:-mt-72">SERVICIOS AMBIENTALES ESPECIALIZADOS</p>
-    </div>
+<section id="hero" class="scroll-mt-20 mt-20 sm:mt-0 sm:px-4">
+    <Image class="w-full sm:rounded-3xl" src={hero} alt="hero" />
 </section>

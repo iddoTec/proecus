@@ -3,21 +3,19 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import Product from "../../components/template/Product.astro";
 import linea from "../../../public/img/linea.svg";
-import producto1 from "../../../public/img/productos/producto1.jpg";
-import producto2 from "../../../public/img/productos/producto2.jpg";
-import producto3 from "../../../public/img/productos/producto3.jpg";
+import producto1 from "../../../public/img/productos/category2/producto1.jpg";
+import producto2 from "../../../public/img/productos/category2/producto2.jpg";
 ---
 
 <BaseLayout>
     <section class="pt-10 dark:text-white">
-        <h1 class="text-3xl font-medium text-center">Categoría 2</h1>
+        <h1 class="text-3xl font-medium text-center mt-16">Desarrollo de proyectos agropecuarios</h1>
         <Image class="mb-4 mx-auto" src={linea} alt="linea" />
         <div
             class="mx-auto grid max-w-6xl grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         >
-        <Product title="Producto 1" img={producto1} alt="Producto1" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
-        <Product title="Producto 2" img={producto2} alt="Producto2" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
-        <Product title="Producto 3" img={producto3} alt="Producto3" text="este es una descripción breve sobre el producto/servicio y su alcance"/>
+        <Product title="Gestión de recursos gubernamentales" img={producto1} alt="Producto1" text="Nuestro equipo experto en regulaciones y trámites burocráticos le guiará a través del proceso, asegurando el acceso a fondos y apoyos para impulsar el crecimiento de su empresa." msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Gesti%C3%B3n%20de%20recursos%20gubernamentales"/>
+        <Product title="Certificaciones" img={producto2} alt="Producto2" text="Nuestro servicio de asesoramiento le ayudará a cumplir con los estándares requeridos, fortaleciendo la confianza de sus clientes y abriendo nuevas oportunidades en el mercado." msjWhatsApp="https://wa.me/524462136447?text=Necesito%20informaci%C3%B3n%20sobre%20su%20servicio%20en%20Certificaciones"/>
         </div>
     </section>
 </BaseLayout>
