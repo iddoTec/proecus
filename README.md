@@ -52,7 +52,7 @@ Agradecemos las contribuciones al proyecto. Si desea contribuir, siga estos paso
 
 ## Autor
 
-- **Roberto Vazquez (RobertCoder)** - [Perfil de GitHub](https://github.com/xBlackEaglex)
+- **Roberto Vazquez (RobertCoder)** - [Perfil de GitHub](https://github.com/RobertCoderDev)
 
 - **Portfolio y contacto** [Portfolio Web](https://www.robertcoder.com)
 
